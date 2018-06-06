@@ -1,0 +1,58 @@
+.mint-header {
+  font-size: .75rem;
+  height: 2rem;
+  background-color: #e83737;
+}
+body,html{
+  background-color:#fff;
+}
+.mint-msgbox{
+  width:70%;
+  border-radius: 10px;
+}
+.mint-tabbar {
+  height: 2.3rem;
+}
+.mint-loadmore-text {
+  font-size: .8rem;
+  font-weight: 700;
+}
+.chose {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 2rem;
+  padding: 0 .6rem;
+  border-bottom: 1px solid #eee;
+}
+.chose span {
+  font-size: .7rem;
+  width: 30%;
+}
+.chose input {
+  width: 70%;
+  border:none;
+  background-color: transparent;
+  font-size: .7rem;
+}
+.chose i {
+  position: absolute;
+  right: 1.5rem;
+}
+.nodata {
+  padding: .3rem 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.nodata span {
+  display: inline-block;
+  width: 5rem;
+  height: 4.17rem;
+}
+.nodata p {
+  font-size: .7rem;
+  text-align: center;
+}

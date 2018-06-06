@@ -1,0 +1,99 @@
+.mint-header {
+  font-size: .75rem;
+  height: 2rem;
+  background-color: #e52920;
+}
+body,html{
+  height: 100%;
+  background-color:#f4f4f4;
+}
+#app{
+  height:100%;
+}
+.mint-tabbar {
+  height: 2.3rem;
+}
+.mint-loadmore-text {
+  font-size: .8rem;
+  font-weight: 700;
+}
+.chose {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 2rem;
+  padding: 0 .6rem;
+  border-bottom: 1px solid #eee;
+    background:#fff;
+}
+.chose span {
+  font-size: .6rem;
+  width: 30%;
+
+}
+.chose input {
+  width: 70%;
+  border:none;
+  background-color: transparent;
+  font-size: .6rem;
+}
+.chose i {
+  position: absolute;
+  right: 1.5rem;
+}
+.nodata {
+  padding: .3rem 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.nodata span {
+  display: inline-block;
+  width: 5rem;
+  height: 4.17rem;
+}
+.nodata p {
+  font-size: .7rem;
+  text-align: center;
+}
+.mint-switch{
+    height:20px;    
+}
+.mint-switch-input:checked + .mint-switch-core{
+    background: #e83737;
+    border:#e83737;
+}
+.mint-switch-core{
+  height:20px;
+  width:40px;
+}
+.mint-switch-core::before{
+  height:20px;
+   width:40px;
+   background:#f4f4f4;
+}
+.mint-switch-core::after{
+  height:20px;
+  width:20px;
+}
+.el-date-editor{
+  width:40%;
+
+}
+.el-date-editor input{
+  font-size: .6rem;
+  width:100%;
+  border:0;
+}
+.mint-cell{
+  width:50%;
+  float:left;
+}
+.mint-cell-wrapper{
+  background:none;
+}
+.mint-cell:last-child{
+  background:none;
+}
